@@ -11,7 +11,7 @@ live_design!{
 
     ICON_LOGO = dep("crate://self/assets/images/logo_makepad.png");
 
-    App = {{App}} {
+    App = {% raw %}${{App}}{% endraw %} {
         ui: <Window> {
             body = <View>{
                 flow: Down,
